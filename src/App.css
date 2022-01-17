@@ -1,2 +1,106 @@
-.App {
+* {
+    color: #343434;
 }
+
+#cardContainer {
+    margin-top: 2em;
+}
+
+hr {
+    background-color: #DFDFDF;
+    border: none;
+}
+
+.propertyCard {
+    width: 30%;
+    height: 215px;
+    display: inline-block;
+    margin-left: 1em;
+    border: 1px solid #DFDFDF;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.propertyName {
+    background-color: #DFDFDF;
+    margin-bottom: -0.5em;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+.topCardContainer {
+    margin: 1em 0 2em 0;
+    padding: 0 1em 0 1em;
+}
+
+.bottomCardContainer {
+    text-align: center;
+    padding: 0 1em 0 1em;
+}
+
+.topCardContainer, .bottomCardContainer {
+    display: block;
+    height: 75px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.propertyAddress {
+    width: 47%;
+    display: inline-block;
+}
+.propertyBaseRent {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+}
+
+.footerInfo {
+    display: inline-block;
+}
+
+#detailsTable {
+    width: 85%;
+    text-align: left;
+    margin: 5em auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.detailsHeaderRow {
+    background-color: #DFDFDF;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+tr {
+    border: 1px solid #DFDFDF;
+}
+
+th, td {
+    padding: .75em;
+    vertical-align: top;
+}
+
+.bold {
+    font-weight: 900
+}
+
+#noDetailsMessage {
+    text-align: center;
+    margin-top: 5em;
+}
+
+#spinnerContainer {
+    margin-top: 5em;
+    text-align: center;
+}
+
